@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir dist",
+    "dev": "bun run index.ts"
+  },
+  "type": "module"
+}
